@@ -1,0 +1,21 @@
+ {
+    "numOne":10,
+    "numTwo":101,
+    "ARR":[1,2,3,4,5,6,7,4,8,9,10],
+    "DISKS" : [0.5, 1, 2.5, 4.53, 5, 10, 11.33, 15, 15.87, 20, 20.41, 25],
+    "MAX_RECORD": 100,
+    "sizes" : ["S", "M", "L", "XL", "XXL", "XXXL"],
+    "quantities" : [1, 1, 1, 1, 8, 5],
+    "participants" : [
+    { "name": "John", "size": "M" },
+    { "name": "Kate", "size": "L" },
+    { "name": "Alex", "size": "XL" },
+    { "name": "Mike", "size": "S-M" },
+    { "name": "Sarah","size": "L-XL" }
+    ],
+    "plan": [
+    [0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0],
+    [1, 1, 1, 0, 1]
+  ]
+}
